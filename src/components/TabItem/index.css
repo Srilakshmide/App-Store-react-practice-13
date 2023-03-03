@@ -1,0 +1,29 @@
+.tabItem {
+  margin-right: 4px;
+  list-style-type: none;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .tabItem {
+    margin-right: 20px;
+  }
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #7b8794;
+  font-weight: 500;
+  padding-bottom: 5px;
+  cursor: pointer;
+  border-bottom: 2px solid #dfe2e5;
+}
+
+.active-tab-btn {
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+}

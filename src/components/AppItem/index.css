@@ -1,0 +1,60 @@
+.app-list-container {
+  list-style-type: none;
+  margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-list-container {
+    margin-left: 20px;
+  }
+}
+
+.app-item-container {
+  background-color: #ffffff;
+  padding: 15px 30px;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .app-item-container {
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+  }
+}
+
+.app-image {
+  width: 60px;
+  height: 60px;
+  align-self: center;
+}
+
+@media screen and (max-width: 768px) {
+  .app-image {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+.app-title {
+  font-family: 'Bree Serif';
+  color: #1e293b;
+  font-size: 16px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .app-title {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+}
